@@ -38,7 +38,7 @@ const project: StellarProject = {
      * Public nodes may be rate limited, which can affect indexing speed
      * When developing your project we suggest getting a private API key
      */
-    endpoint: [ "https://horizon-testnet.stellar.org" ],
+    endpoint: ["https://horizon-testnet.stellar.org"],
     /* This is a specific Soroban endpoint
       It is only required when you are using a soroban/EventHandler */
     sorobanEndpoint: "https://soroban-testnet.stellar.org",
@@ -49,7 +49,7 @@ const project: StellarProject = {
     {
       kind: StellarDatasourceKind.Runtime,
       /* Set this as a logical start block, it might be block 1 (genesis) or when your contract was deployed */
-      startBlock: 1700000,
+      startBlock: 2108000,
       mapping: {
         file: "./dist/index.js",
         handlers: [

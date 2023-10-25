@@ -22,7 +22,7 @@ network:
   sorobanEndpoint: https://soroban-testnet.stellar.org
 dataSources:
   - kind: stellar/Runtime
-    startBlock: 1700000
+    startBlock: 2108000
     mapping:
       file: ./dist/index.js
       handlers:

@@ -33,6 +33,7 @@ docker run --volume ${currentDir}/:/workspace \
            --detach \
            --publish-all \
            --memory=12g \
+           --privileged \
            --net-alias ${containerName} \
            ${imageName}:${versionTag}
 
