@@ -4,6 +4,8 @@ This repository is designed to set up a Subquery project for Stellar and Soroban
 
 This project includes code for running and configuring a Subquery project to store data from specific contracts. Additionally, it incorporates Docker-based scripts to eliminate dependency on the host machine's configurations such as Node or Docker versions, and also avoids the need for a global Subql installation.
 
+The following code has been successfully published to IPFS and we've been able to load it onto the SubQuery Managed Services. However, we are experiencing some challenges with the deployment on SubQuery Managed Services. We're actively looking and collaborating with the SubQuery team into resolving these issues to ensure smooth deployment.
+
 ## Getting Started Locally
 
 ### Running Docker Container
